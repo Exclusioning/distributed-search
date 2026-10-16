@@ -81,7 +81,7 @@ target/                         # Build output (ignored in VCS)
 README.md                       # (you are here)
 ```
 
-## 🧪 Testing & Code Coverage
+## Testing & Code Coverage
 
 This project uses **JUnit 5** and **Mockito** for unit testing, with code coverage tracked via **JaCoCo**. 
 
