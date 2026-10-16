@@ -81,6 +81,27 @@ target/                         # Build output (ignored in VCS)
 README.md                       # (you are here)
 ```
 
+## 🧪 Testing & Code Coverage
+
+This project uses **JUnit 5** and **Mockito** for unit testing, with code coverage tracked via **JaCoCo**. 
+
+### Coverage Summary (69% Overall)
+* **Core Logic (`Board` / `Move`):** ~99% - 100% instruction coverage.
+* **UI & Distributed Components:** Partially tested.
+
+| Package / Class | Instruction Coverage | Branch Coverage | Status |
+| :--- | :---: | :---: | :---: |
+| `com.mycompany.pegsolitaire.Move` | **100%** | N/A | ✅ Fully Tested |
+| `com.mycompany.pegsolitaire.Board` | **99%** | **91%** | ✅ Fully Tested |
+| `com.mycompany.pegsolitaire.Evaluator` | **76%** | **43%** | 🟡 Good |
+| `com.mycompany.pegsolitaire.GameGui` | **45%** | **50%** | 🟠 Partial |
+
+### How to Run Tests Locally
+To execute the test suite and generate a fresh JaCoCo coverage report locally, run:
+
+```cmd
+mvn clean test jacoco:report
+
 How it fits together:
 - The core model is in Board and Move. Evaluator implements search/evaluation algorithms that operate over Board states.
 - PegSolitaire (main) wires up UI or CLI and uses Evaluator to compute moves/solutions.
