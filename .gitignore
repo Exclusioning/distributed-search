@@ -1,1 +1,16 @@
+# macOS
+.DS_Store
 
+# Maven
+/target/
+
+# IDE (optional — add whatever you use)
+.idea/
+*.iml
+
+# Java
+*.class
+*.jar
+
+# Logs
+*.log
