@@ -91,10 +91,10 @@ This project uses **JUnit 5** and **Mockito** for unit testing, with code covera
 
 | Package / Class | Instruction Coverage | Branch Coverage | Status |
 | :--- | :---: | :---: | :---: |
-| `com.mycompany.pegsolitaire.Move` | **100%** | N/A | ✅ Fully Tested |
-| `com.mycompany.pegsolitaire.Board` | **99%** | **91%** | ✅ Fully Tested |
-| `com.mycompany.pegsolitaire.Evaluator` | **76%** | **43%** | 🟡 Good |
-| `com.mycompany.pegsolitaire.GameGui` | **45%** | **50%** | 🟠 Partial |
+| `com.mycompany.pegsolitaire.Move` | **100%** | N/A | Fully Tested |
+| `com.mycompany.pegsolitaire.Board` | **99%** | **91%** | Fully Tested |
+| `com.mycompany.pegsolitaire.Evaluator` | **76%** | **43%** | Good |
+| `com.mycompany.pegsolitaire.GameGui` | **45%** | **50%** | Partial |
 
 ### How to Run Tests Locally
 To execute the test suite and generate a fresh JaCoCo coverage report locally, run:
