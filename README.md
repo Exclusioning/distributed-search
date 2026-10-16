@@ -79,8 +79,6 @@ src/
         ServerDistribution.java # Coordinator / distribution example
 target/                         # Build output (ignored in VCS)
 README.md                       # (you are here)
-LICENSE                         # Repository license
-CONTRIBUTING.md                 # Contribution guidelines (link target)
 ```
 
 How it fits together:
