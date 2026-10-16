@@ -1,8 +1,6 @@
 # PegSolitaire — Distributed search demo
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/Exclusioning/distributed-search/maven.yml?branch=main&label=build&style=flat-square)](https://github.com/Exclusioning/distributed-search/actions)
 [![Maven Central](https://img.shields.io/badge/maven--artifact-PegSolitaire-orange?style=flat-square)]()
-[![License](https://img.shields.io/badge/license-See%20LICENSE-lightgrey?style=flat-square)](LICENSE)
 
 A small Java project that demonstrates search and evaluation strategies for the Peg Solitaire puzzle, with optional components to distribute evaluation work. It includes a playable GUI, search/evaluator modules, and server classes that show how pieces of computation can be separated for distributed processing.
 
