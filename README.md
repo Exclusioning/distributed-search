@@ -95,25 +95,6 @@ How it fits together:
 - com.epam.jdi:jdi-uitest-gui — GUI/test utilities referenced in pom.xml
 - Build: Maven (pom.xml sets project metadata and compiler release)
 
-## Where to get help
-- Open an issue: https://github.com/Exclusioning/distributed-search/issues
-- Read the code under src/main/java/com/mycompany/pegsolitaire/ for usage patterns and examples.
-- For Infinispan-specific questions, consult the Infinispan docs: https://infinispan.org/docs/
-
 ## Who maintains this repository
 Maintained by: @Exclusioning
 
-If you'd like to contribute, please:
-- Read the CONTRIBUTING guidelines: CONTRIBUTING.md
-- Open issues for bugs or feature requests
-- Submit pull requests against the `main` branch with a clear summary and tests/examples where appropriate
-
-## Contributing
-Please follow the repository contribution guidelines in CONTRIBUTING.md (relative link). Keep changes focused and add tests or a short example application run when adding features.
-
-## License
-See the LICENSE file in the repository root.
-
-## Small troubleshooting
-- If build fails due to Java version, ensure your JAVA_HOME points to a JDK 24 installation or change `maven.compiler.release` in `pom.xml`.
-- If the GUI won't start on a headless server, run it on a desktop or use the evaluator/CLI classes to run headless searches.
