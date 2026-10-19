@@ -14,8 +14,7 @@ A small Java project that demonstrates search and evaluation strategies for the 
 ## Quick links
 - Source: src/main/java/com/mycompany/pegsolitaire/
 - Build configuration: pom.xml
-- License: LICENSE
-- Contributing: CONTRIBUTING.md
+
 
 ## Requirements
 - Java 24 (project configured with maven.compiler.release = 24)
